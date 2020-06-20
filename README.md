@@ -11,6 +11,13 @@ __Packages:__ nltk, sklearn, textblob, plotly, pandas, numpy
 
 __References:__ https://towardsdatascience.com/@actsusanli 
 
+## Data:
+The dataset used has the following columns:
+* Title - The title of the article.
+* Text - The main body of the post.
+* Source - The source site from which the article is extracted.
+* Label - Labelling of the article as genuine or fake.
+
 ## Data Cleaning:
 * First I converted all the rows in 'label' column to uppercase.
 * Created a function to read any news article, removed punctuation and changed to lowercase.
